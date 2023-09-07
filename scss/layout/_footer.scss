@@ -1,0 +1,260 @@
+.footer {
+
+    background-color: $bg-second-col;
+
+    text-align: center;
+    @media screen and (min-width:1200px){
+        text-align: start;
+        
+    }
+    color: $bg-pr-col;
+
+    &--size{
+        padding: 60px 0;
+        
+
+    }
+
+    &__tb_conteiner{
+        margin-bottom: 60px;
+        @media screen and (min-width:768px){
+            display: flex;
+            justify-content: space-between;
+           
+            padding-right: 76px;
+            padding-left: 76px;
+            align-items: baseline;
+           
+        }
+        @media screen and (min-width:1200px){
+            
+            padding-right: 0px;
+            padding-left: 0px;
+            margin-bottom: 0;
+            margin-right: auto;
+        }
+
+       
+   }  
+   
+   &__desk__conteiner{
+    @media screen and (min-width:1200px){
+        display: flex;
+        margin-bottom: 0;
+        align-items: baseline;
+    }
+
+   }
+
+
+
+
+    // DIV-footer-contact
+        &__contact{
+            &--size{
+
+                margin-bottom: 60px;
+                @media screen and (min-width:768px){
+                    margin-bottom: 0;
+                }
+                @media screen and (min-width:1200px){
+                    margin-bottom: 0px;
+                    margin-right: 70px;
+                }
+               
+            }
+        }
+
+    // footer-par
+        &__par{
+
+            
+            font-weight: 500;
+            font-size: 14px;
+            line-height: 24px;
+
+
+            text-align: center;
+            letter-spacing: 0.03em;
+
+            color: $bg-pr-col;
+
+            &--size{
+                display: block;
+                margin-bottom: 6px;
+            }
+
+        }
+
+
+    // DIV-footer-network  
+    &__network{
+        &--size{
+           
+            @media screen and (min-width:1200px){
+                margin-bottom: 0px;
+              
+            }
+        }
+    }  
+
+    &__form__btn {
+        display: inline-flex;
+        align-items: center;
+        
+  
+        &--size{
+          padding: 10px 22px;
+        }
+        
+        &:hover,
+        &:focus {
+        background-color: $hover-btn-col;
+        box-shadow: 0px 4px 4px $sw-btn;
+      }
+
+    
+}
+
+// DIV-footer-contact-address
+.address{
+    font-style: normal;
+
+   
+
+    &__item{
+       
+
+        &--size{
+            display: block;
+            margin-bottom: 8px;
+        }
+    }
+
+    &__link{
+      
+    
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 24px;
+    
+
+        text-align: center;
+        letter-spacing: 0.03em;
+
+        color:  $-link-col;
+
+        transition: color $pr-transition;
+
+        &:focus,
+        &:hover{
+            color: $accent-col;
+        }
+
+    }
+}
+
+
+.footer__tittle{
+
+    font-weight:700;
+    font-size: 14px;
+    line-height: 1.4;
+    text-align: center;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+
+    color:$bg-pr-col;
+    @media screen and (min-width:1200px){
+        text-align: start;
+    }
+
+    &--size{
+        margin-bottom: 20px;
+
+    }
+}
+
+// footer-form
+.footer__form__conteiner{
+    @media screen and (min-width:768px){
+        width: 450px;
+        margin: auto;
+        
+    }
+    @media screen and (min-width:1200px){
+        margin:0;
+        display: flex;
+        flex-direction: column;
+        width: auto;
+    }
+
+    
+}
+
+
+  
+.footer__form {
+    @media screen and (min-width:1200px){
+        display: flex;
+        
+        
+
+       
+    
+        
+    }
+    
+    
+    fill: $icon-pr-col;
+  }
+  
+  &__input {
+    width: 100%;
+    height: 50px;
+    @media screen and (min-width:1200px){
+       width: 370px;
+       
+    }
+
+   
+   
+    
+    border-radius: 4px;
+    border: 1px solid $br-solid-col;
+    outline: none;
+  
+    color:$br-solid-col;
+
+    background-color: transparent;
+    cursor: pointer;
+
+    &--size{
+        padding: 15px 16px;
+        margin-bottom: 20px;
+
+        @media screen and (min-width:1200px){
+            margin-bottom: 0px;
+            margin-right: 12px;
+        }
+
+    }
+
+    &:focus,
+    &:hover {
+      border: 1px solid $hover-btn-col;
+    }
+  }
+  
+  
+}
+
+.icon-send {
+    fill: currentColor;
+    margin-left: 10px;
+  }
+  .footer-icon-conteiner {
+    display: flex;
+   
+    margin-left: 10px;
+  }

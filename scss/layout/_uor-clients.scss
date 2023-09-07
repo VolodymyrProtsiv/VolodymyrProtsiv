@@ -1,0 +1,123 @@
+.clients__section{
+    background-color: $bg-pr-col;
+    &--size{
+        padding:60px 0;
+        @media screen and(min-width:1200px) {
+          padding: 94px 0;
+        }
+    }
+}
+.clients__tittle{
+    font-weight:700;
+    font-size: 28px;
+    line-height: 1.2;
+
+
+    text-align: center;
+    letter-spacing: 0.03em;
+
+    color: $pr-col-txt;
+    &--size{
+        margin-bottom: 30px;
+    }
+    @media screen and (min-width: 1200px){
+      
+      font-size: 36px;
+      line-height: 1.2;
+
+      &--size{
+        margin-bottom: 50px;
+      }
+     
+    }
+      
+   
+}
+
+
+.clients__list {
+    display: flex;
+
+     margin: -15px;
+    @media screen and (max-width:1199px){
+      flex-wrap: wrap;
+    }
+    
+
+    
+
+    
+
+    
+  }
+
+  .clients__item{
+    
+      &--size{
+        margin: 15px;
+
+        
+          width: calc((100% - 60px) / 2);
+        
+          
+          //  &:nth-child(2n) {
+          //   margin-right: 0;
+          // }
+        
+
+
+
+        @media screen and (min-width:768px){
+          width: calc((100% - 90px) / 3);
+          // &:nth-child(3n) {
+          //   margin-right: 0;
+          // }
+        }
+        
+        
+        
+
+        @media screen and (min-width:1200){
+          width: calc((100% - 180px) / 6);
+          // &:nth-child(6n) {
+          //   margin-right: 0;
+          // }
+        
+
+        }
+        
+
+      }
+  }
+  
+  .clients__link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+        &--size{
+            width: 100%;
+            height: 92px;
+        }
+        
+    border-radius: 4px;
+  
+    background-color: transparent;
+  
+    color: $icon-pr-col;
+    border: 1px solid $icon-pr-col;
+  
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+      border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+      &:hover,
+      &:focus {
+        color: $hover-btn-col;
+        border: 1px solid $hover-btn-col;
+      }
+  }
+  .clients-icon {
+    fill: currentColor;
+  }
+ 
+  
